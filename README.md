@@ -10,6 +10,10 @@
 - All what you need for scatter figure is to use "constellation diagram" component and connect its input with the output of the signal after modulation, and another constellation diagram to connect it with the signal after AWGN channel.
 - when you run the simulation the scatter figures with appear automatically.
 
+#### parameters changes from one modulation to another:
+  1. Size set at Random Integer Generator: this number should be = 2^(number of bit/symbo)
+  2. Number of bits/symbo at AWGN
+  
 ## 1. BPSK
   - it's a phase-shift keying (**PSK**) modulation that use two phases with difference 180 degree, so it can handle the noise due to the big difference in phase.
   - it modulates at 1 bit/symbo so it's slow and not working with high data-rate applications.
